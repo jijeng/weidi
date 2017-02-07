@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context="com.example.administrator.wo.make_xiaoxi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout style="@style/PersonalMainLayoutStyle" >
+            <RelativeLayout
+                style="@style/PersonalNormalStyle"
+                android:id="@+id/rl_xiaoxi_huimake">
+                <ImageView
+                    style="@style/PersonalIconStyle"
+                    android:src="@drawable/pre"
+                    android:id="@+id/imageView1" />
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="35dp"
+                    android:textSize="20dp"
+                    android:text="消息提醒"
+                    android:textColor="#0da17f"
+                    android:id="@+id/textView" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="每日推送                                     "
+            android:textColor="#000000"
+            android:id="@+id/switch1" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="提醒时间                                      "
+            android:textColor="#000000"
+            android:id="@+id/switch2" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="活动相关通知                              "
+            android:textColor="#000000"
+            android:id="@+id/switch3" />
+
+    </LinearLayout>
+
+</RelativeLayout>

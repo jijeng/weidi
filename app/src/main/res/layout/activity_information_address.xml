@@ -1,0 +1,209 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context="com.example.administrator.wo.information_address">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <LinearLayout style="@style/PersonalMainLayoutStyle" >
+           <RelativeLayout
+               style="@style/PersonalNormalStyle"
+               android:id="@+id/rl_huiadress">
+               <ImageView
+                   style="@style/PersonalIconStyle"
+                   android:src="@drawable/pre"
+                   android:id="@+id/imageView1" />
+
+               <TextView
+                   style="@style/PersonalTextStyle"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="35dp"
+                   android:textSize="20dp"
+                   android:text="修改用户名"
+                   android:textColor="#0da17f"
+                   android:id="@+id/textView" />
+               </RelativeLayout>
+
+       </LinearLayout>
+       <TextView
+       style="@style/PersonalCenterText"
+       android:layout_height="1dp"
+       android:background="#eeeeee"
+       />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <RelativeLayout
+              android:layout_width="fill_parent"
+               android:layout_height="40dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="姓名:"
+                   android:textSize="20dp"
+                   android:textColor="#000000"
+                   android:id="@+id/textView2" />
+
+               <EditText
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="50dp"
+                   android:text="最少两个，最多15个字"
+                   android:textColor="#aaaaaa"
+                   android:id="@+id/editText2"
+                    />
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="40dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="电话:"
+                   android:textSize="20dp"
+                   android:textColor="#000000"
+                   android:id="@+id/textView3" />
+
+               <EditText
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="50dp"
+                   android:text="不少于7位"
+                   android:textColor="#aaaaaa"
+                   android:id="@+id/editText3"
+                   />
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="40dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="省份:"
+                   android:textSize="20dp"
+                   android:textColor="#000000"
+                   android:id="@+id/textView4" />
+
+               <EditText
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="50dp"
+                   android:id="@+id/editText4"
+                   />
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="40dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="城市:"
+                   android:textSize="20dp"
+                   android:textColor="#000000"
+                   android:id="@+id/textView5" />
+
+               <EditText
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="50dp"
+                   android:id="@+id/editText5"
+                   />
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="40dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="地区:"
+                   android:textSize="20dp"
+                   android:textColor="#000000"
+                   android:id="@+id/textView6" />
+
+               <EditText
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="50dp"
+                   android:id="@+id/editText6"
+                   />
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="40dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="地址:"
+                   android:textSize="20dp"
+                   android:textColor="#000000"
+                   android:id="@+id/textView7" />
+
+               <EditText
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="50dp"
+                   android:text="最少5个，最多60个字，不能全为数字"
+                   android:textColor="#aaaaaa"
+                   android:id="@+id/editText7"
+                   />
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="40dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="邮编:"
+                   android:textSize="20dp"
+                   android:textColor="#000000"
+                   android:id="@+id/textView8" />
+
+               <EditText
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="50dp"
+                   android:text="6位邮编编码"
+                   android:textColor="#aaaaaa"
+                   android:id="@+id/editText8"
+                   />
+           </RelativeLayout>
+
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="设置成默认收货地址"
+               android:textSize="15dp"
+               android:textColor="#000000"
+               android:id="@+id/checkBox" />
+
+           <TextView
+               android:layout_width="284dp"
+               android:layout_height="45dp"
+               android:text="保存并使用"
+               android:gravity="center"
+             android:layout_marginLeft="40dp"
+               android:background="#0da17f"
+
+               android:id="@+id/textView9" />
+
+       </LinearLayout>
+   </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.weidi.jijeng.weidi"
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/fastjson-1.1.34.android.jar')
+    compile files('libs/easemobchat_2.1.5.jar')
+    compile files('libs/core.jar')
+    compile files('libs/library.jar')
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:support-v4:22.2.1'
+    compile files('libs/GifView.jar')
+    compile files('libs/universal-image-loader-1.8.6-with-sources.jar')
+    compile files('libs/aseo2.jar')
+    compile files('libs/cu_volley.jar')
+    compile files('libs/httpcore.jar')
+    compile files('libs/BmobSDK_V3.4.3_0828.jar')
+    compile files('libs/filechoose.jar')
+    compile files('libs/Bmob_Push_V0.6beta_20150408.jar')
+    compile files('libs/universal-image-loader-1.9.4.jar')
+}

@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+    <include
+        android:id="@+id/top"
+        layout="@layout/top_menu_back" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+         >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:src="@drawable/baby2"
+            android:layout_height="380dp"
+
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@mipmap/img_baby3"
+            android:layout_marginTop="-120dp"
+            android:layout_height="wrap_content"
+            />
+
+
+        <TableLayout
+            android:layout_marginTop="-120dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/luobo"
+                    android:src="@mipmap/img_baby4a"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/baicai"
+                    android:src="@mipmap/img_babyb"
+                    android:layout_height="wrap_content"
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#0da17f"
+        >
+        <TextView
+            android:id="@+id/kefu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#F0FFF0"
+            android:layout_height="wrap_content"
+            android:text="联系客服"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/put_in"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#F0FFF0"
+            android:text="购 物 车"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:id="@+id/buy_now"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#F0FFF0"
+            android:text="立即购买"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

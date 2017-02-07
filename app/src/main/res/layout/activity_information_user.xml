@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll_xiuuser">
+
+        <ImageView
+            style="@style/PersonalIconStyle"
+            android:src="@drawable/pre"
+            android:id="@+id/imageView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="修改用户名"
+            android:textColor="#0da17f"
+            android:id="@+id/textView18" />
+    </LinearLayout>
+    <View style="@style/PersonalLine" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="用户名："
+        android:textColor="#000000"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/editText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:gravity="bottom"
+        android:text="以中文或英文字母开头，限4-16个字符，一个汉字为两个字符"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:background="#0da17f"
+        android:textSize="20dp"
+        android:text="确定"
+        android:id="@+id/button" />
+</LinearLayout>

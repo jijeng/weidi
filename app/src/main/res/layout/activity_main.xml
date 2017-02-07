@@ -1,0 +1,231 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context=".MainActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <!--<TextView-->
+
+            <!--style="@style/PersonalCenterText"-->
+            <!--android:layout_height="1dp"-->
+            <!--/>-->
+        <LinearLayout style="@style/PersonalMainLayoutStyle"
+            android:layout_height="150dp"
+            android:background="#0da17f"
+            android:id="@+id/ll_myin">
+
+            <ImageView
+                android:id="@+id/personal_icon_02"
+                style="@style/PersonalIconStyle"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/tx" />
+            <TextView
+                style="@style/PersonalTextStyle"
+                android:layout_toRightOf="@id/personal_icon_02"
+                android:text="@string/personal_user"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:id="@+id/zhu_yonghuming"></TextView>
+
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/PersonalCenterText"
+            android:text="@string/personal_account_center" />
+
+        <LinearLayout style="@style/PersonalMainLayoutStyle" >
+
+            <RelativeLayout style="@style/PersonalNormalStyle"
+                android:id="@+id/rl_wocollect">
+
+                <ImageView
+                    android:id="@+id/personal_icon_04"
+                    style="@style/PersonalIconStyle"
+                    android:src="@drawable/android_my_jd_collects" />
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_toRightOf="@id/personal_icon_04"
+                    android:text="@string/personal_my_focus" />
+
+                <ImageView
+                    style="@style/PersonalRightIconStyle"
+                    android:src="@drawable/android_list_idex" />
+            </RelativeLayout>
+
+            <View style="@style/PersonalLine" />
+
+            <RelativeLayout style="@style/PersonalNormalStyle"
+                android:id="@+id/rl_woevalude">
+
+                <ImageView
+                    android:id="@+id/personal_icon_05"
+                    style="@style/PersonalIconStyle"
+                    android:src="@drawable/android_my_jd_discuss" />
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_toRightOf="@id/personal_icon_05"
+                    android:text="@string/personal_comment" />
+
+                <ImageView
+                    style="@style/PersonalRightIconStyle"
+                    android:src="@drawable/android_list_idex" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView
+            style="@style/PersonalCenterText"
+            />
+        <LinearLayout style="@style/PersonalMainLayoutStyle" >
+            <RelativeLayout style="@style/PersonalNormalStyle"
+                android:id="@+id/rl_myorder">
+
+                <ImageView
+                    android:id="@+id/personal_icon_03"
+                    style="@style/PersonalIconStyle"
+                    android:src="@drawable/android_personel_all_order" />
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_toRightOf="@id/personal_icon_03"
+                    android:text="@string/personal_all_order" />
+
+                <ImageView
+                    style="@style/PersonalRightIconStyle"
+                    android:src="@drawable/android_list_idex" />
+            </RelativeLayout>
+
+            <View style="@style/PersonalLine" />
+
+            <RelativeLayout style="@style/PersonalNormalStyle"
+                android:id="@+id/rl_mywallet">
+
+                <ImageView
+                    android:id="@+id/personal_icon_07"
+                    style="@style/PersonalIconStyle"
+                    android:src="@drawable/wallet" />
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_toRightOf="@id/personal_icon_07"
+                    android:text="@string/personal_wallet" />
+
+                <ImageView
+                    style="@style/PersonalRightIconStyle"
+                    android:src="@drawable/android_list_idex" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView
+            style="@style/PersonalCenterText"
+            />
+        <LinearLayout style="@style/PersonalMainLayoutStyle" >
+
+            <RelativeLayout
+                style="@style/PersonalNormalStyle"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/rl_make">
+
+                <ImageView
+                    android:id="@+id/personal_icon_09"
+                    style="@style/PersonalIconStyle"
+                    android:src="@drawable/android_my_jd_return_repair" />
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_toRightOf="@id/personal_icon_09"
+                    android:text="@string/personal_make" />
+
+                <ImageView
+                    style="@style/PersonalRightIconStyle"
+                    android:src="@drawable/android_list_idex" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/upload"
+            style="@style/PersonalMainLayoutStyle" >
+
+            <RelativeLayout
+                style="@style/PersonalNormalStyle"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/personal_icon_10"
+                    style="@style/PersonalIconStyle"
+                    android:src="@drawable/upload" />
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_toRightOf="@id/personal_icon_10"
+                    android:text="我是农家我要上传" />
+
+                <ImageView
+                    style="@style/PersonalRightIconStyle"
+                    android:src="@drawable/android_list_idex" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:id="@+id/download"-->
+            <!--style="@style/PersonalMainLayoutStyle" >-->
+
+            <!--<RelativeLayout-->
+                <!--style="@style/PersonalNormalStyle"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!-->-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/personal_icon_11"-->
+                    <!--style="@style/PersonalIconStyle"-->
+                    <!--android:src="@drawable/android_my_jd_return_repair" />-->
+
+                <!--<TextView-->
+                    <!--style="@style/PersonalTextStyle"-->
+                    <!--android:layout_toRightOf="@id/personal_icon_11"-->
+                    <!--android:text="下载到本地" />-->
+
+                <!--<ImageView-->
+                    <!--style="@style/PersonalRightIconStyle"-->
+                    <!--android:src="@drawable/android_list_idex" />-->
+            <!--</RelativeLayout>-->
+        <!--</LinearLayout>-->
+        <LinearLayout
+            android:id="@+id/linearCheck"
+            style="@style/PersonalMainLayoutStyle" >
+
+            <RelativeLayout
+                style="@style/PersonalNormalStyle"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/personal_icon_12"
+                    style="@style/PersonalIconStyle"
+                    android:src="@drawable/look" />
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_toRightOf="@id/personal_icon_12"
+                    android:text="查看" />
+
+                <ImageView
+                    style="@style/PersonalRightIconStyle"
+                    android:src="@drawable/android_list_idex" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

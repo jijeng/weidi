@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/introduce2"
+     >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginBottom="55dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btnRegiste"
+            android:text="注 册"
+            android:background="#f0eff4"
+            android:textColor="#8a8000"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_login"
+            android:background="#f0eff4"
+            android:textColor="#8a8000"
+            android:textSize="20dp"
+            android:text="登 录"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_skip"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:text="暂不注册，马上使用"
+            android:textColor="#8a8000"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</RelativeLayout>

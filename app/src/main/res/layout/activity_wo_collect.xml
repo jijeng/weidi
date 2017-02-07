@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context="com.example.administrator.wo.wo_collect">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+        style="@style/PersonalCenterText"
+        android:layout_height="1dp"
+        />
+      <LinearLayout style="@style/PersonalMainLayoutStyle">
+        <RelativeLayout style="@style/PersonalNormalStyle"
+                android:id="@+id/rl_huicollect">
+
+                <ImageView
+                     style="@style/PersonalIconStyle"
+                     android:id="@+id/imageView"
+                     android:src="@drawable/pre"/>
+
+                 <TextView
+                     style="@style/PersonalTextStyle"
+                     android:layout_marginLeft="30dp"
+                     android:text="我的收藏"
+                     android:textSize="20dp"
+                     android:textColor="#0da17f"
+                     android:id="@+id/textView" />
+          </RelativeLayout>
+      </LinearLayout>
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

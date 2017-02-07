@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">微地</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_guide">Guide</string>
+    <string name="title_activity_my_fragmentthree">MyFragmentthree</string>
+    <string name="title_activity_my_fragmenttwo">MyFragmenttwo</string>
+    <string name="title_activity_my_fragmentone">MyFragmentone</string>
+    <string name="title_activity_frame">FrameActivity</string>
+    <string name="title_activity_registe">Registe</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_choose">Choose</string>
+    <string name="title_activity_radar">Radar</string>
+    <string name="title_activity_my">my</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_good__detail">Good_Detail</string>
+    <string name="Registered_successfully">注册成功</string>
+    <string name="Registration_failed">注册失败</string>
+    <string name="title_activity_radar_detail">Radar_detail</string>
+    <string name="title_activity_my_message">MyMessage</string>
+    <!-- 个人中心 -->
+
+    <string name="personal_comment">我的评价</string>
+    <string name="personal_all_order">我的订单</string>
+    <string name="personal_my_focus">我的收藏</string>
+    <string name="personal_user">快快乐乐向前冲！</string>
+    <string name="personal_information">消息中心</string>
+    <string name="personal_wallet">我的钱包</string>
+    <string name="personal_account">账户安全</string>
+    <string name="personal_make">设置</string>
+    <string name="personal_account_center">账户中心</string>
+
+    <!-- 个人中心 -->
+
+
+    <!-- JazzyViewPager -->
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <string name="title_activity_wo_myinformation">wo_myinformation</string>
+
+
+    <string name="title_activity_wo_mywallet">wo_mywallet</string>
+    <string name="title_activity_wo_make">wo_make</string>
+    <string name="title_activity_wo_order">wo_order</string>
+
+    <string name="title_activity_information_user">information_user</string>
+    <string name="title_activity_wo_make2">wo_make2</string>
+    <string name="check">检查更新</string>
+    <string name="xiaoxitixing">消息提醒</string>
+    <string name="maker">设置</string>
+    <string name="textsize">字号大小</string>
+    <string name="zihao">中号字(默认)</string>
+    <string name="delete">清除缓存</string>
+    <string name="other">其他</string>
+    <string name="sao">扫一扫</string>
+    <string name="aboutwe">关于我们</string>
+    <string name="title_activity_information_address">information_address</string>
+    <string name="title_activity_information_call">information_call</string>
+    <string name="title_activity_wo_collect">wo_collect</string>
+    <string name="title_activity_wo_evaluate">wo_evaluate</string>
+    <string name="title_activity_change_password">change_password</string>
+    <string name="title_activity_make_ziti">make_ziti</string>
+
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+
+    <string name="descr_image">Image</string>
+    <string name="ac_name_image_pager">Image Pager Example</string>
+    <string name="ac_name_image_gallery">Image Gallery Example</string>
+</resources>

@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context="com.example.administrator.wo.make_ziti">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout style="@style/PersonalMainLayoutStyle" >
+       <RelativeLayout
+        style="@style/PersonalNormalStyle"
+        android:id="@+id/rl_ziti_huimake">
+        <ImageView
+            style="@style/PersonalIconStyle"
+            android:src="@drawable/pre"
+            android:id="@+id/imageView1" />
+
+        <TextView
+            style="@style/PersonalTextStyle"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dp"
+            android:textSize="20dp"
+            android:text="字体大小"
+            android:textColor="#0da17f"
+            android:id="@+id/textView" />
+       </RelativeLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:gravity="bottom"
+        android:text="设置"/>
+        <View style="@style/PersonalLine"
+            android:background="#44ff99"
+            android:layout_height="2dp"/>
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="A 小字号"
+            android:textColor="#000000"
+            android:id="@+id/radioButton4" />
+        <View style="@style/PersonalLine" />
+        <RadioButton
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="A 中字号"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:id="@+id/radioButton1" />
+        <View style="@style/PersonalLine" />
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="A 大字号"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/radioButton2" />
+        <View style="@style/PersonalLine" />
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="A 特大字号"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:id="@+id/radioButton3" />
+        <View style="@style/PersonalLine" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="common_top_bar_blue">#22292c</color>
+    <!-- 浅灰色 -->
+    <color name="bg_Gray_light">#EEEEEE</color>
+    <!-- 灰色 -->
+    <color name="bg_Gray">#CCCCCC</color>
+    <!-- 黑色 -->
+    <color name="tv_Black">#000000</color>
+    <!-- 白色 -->
+    <color name="tv_White">#FFFFFF</color>
+    <!-- 灰色 -->
+    <color name="tv_Gray">#CCCCCC</color>
+    <!-- 白色 -->
+    <color name="bg_White">#FFFFFF</color>
+    <color name="tv_Red">#CC0000</color>
+    <color name="toast_color">#ff2E76B9</color>
+    <color name="darkgray">#a9a9a9</color>
+    <!-- 暗灰色 -->
+    <!-- 黑色 -->
+    <color name="bg_Black">#000000</color>
+</resources>

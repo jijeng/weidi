@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context="com.example.administrator.wo.information_call">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout style="@style/PersonalMainLayoutStyle" >
+            <RelativeLayout
+                style="@style/PersonalNormalStyle"
+                android:id="@+id/rl_huicall">
+                <ImageView
+                    style="@style/PersonalIconStyle"
+                    android:src="@drawable/pre"
+                    android:id="@+id/imageView1" />
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="35dp"
+                    android:textSize="20dp"
+                    android:text="选择验证方式"
+                    android:textColor="#0da17f"
+                    android:id="@+id/textView" />
+            </RelativeLayout>
+            <View style="@style/PersonalLine" />
+            <RelativeLayout
+                style="@style/PersonalNormalStyle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="选择验证方式-"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/textView26" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="138dp"
+                    android:text="安全验证-"
+                    android:textColor="#000000"
+                    android:id="@+id/textView27" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="220dp"
+                    android:text="绑定新手机"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:id="@+id/textView28" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="#eeeeee"/>
+        <LinearLayout style="@style/PersonalMainLayoutStyle" >
+            <RelativeLayout
+                style="@style/PersonalNormalStyle">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="17dp"
+                    android:text="151****7585"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:id="@+id/textView29" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="220dp"
+                    android:background="#88ffbb"
+                    android:layout_marginTop="10dp"
+                    android:text="发送验证码"
+                    android:id="@+id/button3" />
+            </RelativeLayout>
+            <View style="@style/PersonalLine" />
+            <RelativeLayout   style="@style/PersonalNormalStyle" >
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:text="请输入手机短信中的验证码"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/textView30" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="#eeeeee"/>
+
+        <Button
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:text="验证"
+            android:background="#0da17f"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/button4" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="#eeeeee"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收不到短信验证码，试试以下验证方式"
+            android:background="#eeeeee"
+            android:textColor="#000000"
+            android:id="@+id/textView31" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="#eeeeee"/>
+
+        <RelativeLayout
+            style="@style/PersonalNormalStyle"
+            android:layout_margin="1dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:text="绑定的手机号"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:id="@+id/textView2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:text="发送验证码"
+                android:layout_marginTop="10dp"
+                android:background="#88ffbb"
+                android:id="@+id/button2" />
+        </RelativeLayout>
+        <View style="@style/PersonalLine" />
+        <RelativeLayout
+            style="@style/PersonalNormalStyle"
+            android:layout_margin="1dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:text="身份验证"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:id="@+id/textView3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:text="发送验证码"
+                android:background="#88ffbb"
+                android:layout_marginTop="10dp"
+                android:id="@+id/button5" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+    <include
+        android:id="@+id/top"
+        layout="@layout/top_menu_back" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/baby1"
+                android:layout_height="300dp" />z
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|left"
+                    android:paddingLeft="10dp"
+                    android:text="2015年正宗昌平新鲜下树的苹果。绿色纯天然有机苹果，无农药可带皮吃，追忆小时候的苹果味道。离您最近的产地。"
+                    android:textColor="#000000" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#CCCCCC" />
+
+                <ImageView
+                    android:id="@+id/iv_baby_collection"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/second_2" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="left"
+                android:text="￥66.00"
+                android:textColor="#CC3366"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="卖家包邮" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="月销  1234笔" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:textColor="#000000"
+                    android:text="北京  发货" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="#CCCCCC" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="宝贝评价"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <com.weidi.jijeng.weidi.MyView.MyListView
+                android:id="@+id/listView_Detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000" >
+            </com.weidi.jijeng.weidi.MyView.MyListView>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:background="#0da17f"
+        android:gravity="bottom"
+
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:id="@+id/kefu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#F0FFF0"
+            android:layout_height="wrap_content"
+            android:text="联系客服"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/put_in"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#FF4500"
+            android:text="购 物 车"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/babycart1"
+            />
+
+        <TextView
+            android:id="@+id/buy_now"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:text="立即购买"
+            android:textSize="18dp"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/all_choice_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#90000000"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+    </LinearLayout>
+
+</RelativeLayout>

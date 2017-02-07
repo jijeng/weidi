@@ -1,0 +1,201 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context="com.example.administrator.wo.wo_myinformation">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            style="@style/PersonalCenterText"
+            android:layout_height="1dp"
+            />
+        <LinearLayout style="@style/PersonalMainLayoutStyle">
+            <RelativeLayout style="@style/PersonalNormalStyle"
+                android:id="@+id/rl_prewo">
+
+                <ImageView
+                    style="@style/PersonalIconStyle"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/pre"/>
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_marginLeft="30dp"
+                    android:text="我的账户"
+                    android:textColor="#0da17f"
+                    android:textSize="20dp"
+                    android:id="@+id/textView" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView
+            style="@style/PersonalCenterText"
+            />
+        <LinearLayout style="@style/PersonalMainLayoutStyle"
+            >
+
+            <RelativeLayout style="@style/PersonalNormalStyle"
+                android:id="@+id/rl_userxiu">
+
+                <ImageView
+                    style="@style/PersonalIconStyle"
+                    android:src="@drawable/wallet"
+                    android:id="@+id/imageView3" />
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_marginLeft="60dp"
+                    android:id="@+id/textView2" />
+
+                <TextView
+                    style="@style/PersonalRightIconStyle"
+                    android:layout_marginRight="25dp"
+                    android:text="修改"
+                    android:textSize="20dp"
+                    android:textColor="#55ff55"
+                    android:id="@+id/textView3" />
+
+                <ImageView
+                    style="@style/PersonalRightIconStyle"
+                    android:src="@drawable/android_list_idex" />
+
+            </RelativeLayout>
+            <View style="@style/PersonalLine" />
+            <RelativeLayout style="@style/PersonalNormalStyle"
+                android:id="@+id/rl_xiuaddress">
+
+                <ImageView
+                    style="@style/PersonalIconStyle"
+                    android:src="@drawable/address"
+                    android:id="@+id/imageView2" />
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_marginLeft="45dp"
+                    android:text="收货地址"
+                    android:id="@+id/textView4" />
+
+                <TextView
+                    style="@style/PersonalRightIconStyle"
+                    android:layout_marginRight="25dp"
+                    android:text="修改"
+                    android:textSize="20dp"
+                    android:textColor="#55ff55"
+                    android:id="@+id/textView5" />
+
+                <ImageView
+                    style="@style/PersonalRightIconStyle"
+                    android:src="@drawable/android_list_idex" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView
+            style="@style/PersonalCenterText"
+            />
+        <LinearLayout style="@style/PersonalMainLayoutStyle">
+
+            <RelativeLayout style="@style/PersonalNormalStyle">
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_marginLeft="6dp"
+                    android:text="账户安全等级"
+                    android:id="@+id/textView6" />
+
+                <TextView
+                    style="@style/PersonalRightIconStyle"
+                    android:layout_marginRight="140dp"
+                    android:text="低"
+                    android:textSize="20dp"
+                    android:textColor="#ff0000"
+                    android:id="@+id/textView7" />
+                <TextView
+                    style="@style/PersonalRightIconStyle"
+                    android:text="设置以下保护账号"
+                    android:textSize="13dp"
+                    android:textColor="#55dd99"
+                    android:id="@+id/textView8" />
+
+            </RelativeLayout>
+            <View style="@style/PersonalLine" />
+            <RelativeLayout style="@style/PersonalNormalStyle"
+                android:id="@+id/rl_xiucall">
+
+                <ImageView
+                    style="@style/PersonalIconStyle"
+                    android:src="@drawable/call_number"
+                    android:id="@+id/imageView10" />
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_marginLeft="45dp"
+                    android:text="绑定手机号"
+                    android:id="@+id/textView11" />
+
+                <TextView
+                    style="@style/PersonalRightIconStyle"
+                    android:layout_marginRight="25dp"
+                    android:text="修改"
+                    android:textSize="20dp"
+                    android:textColor="#55ff55"
+                    android:id="@+id/textView10" />
+
+                <ImageView
+                    style="@style/PersonalRightIconStyle"
+                    android:src="@drawable/android_list_idex" />
+
+            </RelativeLayout>
+            <View style="@style/PersonalLine" />
+            <RelativeLayout style="@style/PersonalNormalStyle"
+                android:id="@+id/rl_xiupassword">
+
+                <ImageView
+                    style="@style/PersonalIconStyle"
+                    android:src="@drawable/password"
+                    android:id="@+id/imageView9" />
+
+                <TextView
+                    style="@style/PersonalTextStyle"
+                    android:layout_marginLeft="45dp"
+                    android:text="登录密码"
+                    android:id="@+id/textView9" />
+
+                <TextView
+                    style="@style/PersonalRightIconStyle"
+                    android:layout_marginRight="25dp"
+                    android:text="修改"
+                    android:textSize="20dp"
+                    android:textColor="#55ff55"
+                    android:id="@+id/textView12" />
+
+                <ImageView
+                    style="@style/PersonalRightIconStyle"
+                    android:src="@drawable/android_list_idex" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <TextView
+            style="@style/PersonalCenterText"
+            />
+        <Button
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:text="退出账户"
+            android:textColor="#ffffdd"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#ff0000"
+            android:id="@+id/button"
+            android:layout_weight="0.43" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
